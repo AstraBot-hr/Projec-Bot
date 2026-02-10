@@ -1,0 +1,11 @@
+# Ignore CLion settings
+.idea/
+cmake-build-*/
+
+# Ignore compiled binaries
+*.o
+*.out
+*.exe
+
+# Ignore OS files
+.DS_Store

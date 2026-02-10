@@ -1,0 +1,21 @@
+{
+  "ultrasonic": {
+    "max_distance": 100,
+    "min_distance": 5
+  },
+  "line_tracker": {
+    "threshold": 500
+  },
+  "edge_detector": {
+    "sensitivity": 70
+  },
+  "nfc_reader": {
+    "red_tag_action": "left",
+    "green_tag_action": "right",
+    "blue_tag_action": "stop"
+  },
+  "robot": {
+    "default_speed": 50,
+    "brain_loop_iterations": 5
+  }
+}
