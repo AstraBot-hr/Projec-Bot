@@ -9,3 +9,4 @@ cmake-build-*/
 
 # Ignore OS files
 .DS_Store
+..
