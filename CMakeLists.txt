@@ -12,4 +12,5 @@ add_executable(Project_Ep20 main.c
         " src/config/cJSON/cJSON.h"
         " src/config/cJSON/cJSON.h"
         " src/config/config.c"
-        " src/config/config.h")
+        " src/config/config.h"
+        " src/ultrasonic/ultrasonic.c")
