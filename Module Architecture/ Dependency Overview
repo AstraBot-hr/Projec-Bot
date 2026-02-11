@@ -1,23 +1,35 @@
-               +----------------+
-               |     main.c     |
-               +----------------+
-                      |
-                      v
-                +-----------+
-                | astra_bot |  <-- central aggregator
-                +-----------+
-          /        |        |       \
-         v         v        v        v
- +-----------+ +-----------+ +-----------+ +-----------+
- |ultrasonic | |line_tracker| |edge_detector| |nfc_reader|
- +-----------+ +-----------+ +-----------+ +-----------+
-                      |
-                      v
-              +----------------+
-              | display_module |  <-- used by astra_bot and buttons
-              +----------------+
-                      ^
-                      |
-              +----------------+
-              | button_module  |  <-- calls callbacks in astra_bot
-              +----------------+
+        ┌─────────────┐
+        │   main.c    │  <-- Entry point; loads config & starts brain loop
+        └─────┬───────┘
+              │
+              ▼
+        ┌─────────────┐
+        │  astra_bot  │  <-- Central brain / orchestrator
+        └─────┬───────┘
+    ┌────────┼─────────┐
+    ▼        ▼         ▼
+┌────────┐ ┌────────┐ ┌─────────────────┐
+│ultrasonic││line_tracker││edge_detector│
+└────────┘ └────────┘ └─────────────────┘
+    │
+    ▼
+┌──────────────┐
+│ nfc_reader   │
+└─────┬────────┘
+      │
+      ▼
+┌──────────────┐
+│display_module│  <-- Shows messages/status from astra_bot & buttons
+└─────┬────────┘
+      │
+      ▼
+┌──────────────┐
+│button_module │  <-- Calls callbacks in astra_bot
+└──────────────┘
+
+Configuration (config.json)
+          │
+          ▼
+   ┌──────────────┐
+   │ config.c/h   │  <-- Provides settings to astra_bot & sensors
+   └──────────────┘

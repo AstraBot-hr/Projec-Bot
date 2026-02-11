@@ -1,4 +1,4 @@
 /Users/isawessels/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/isawessels/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/isawessels/CLionProjects/project_Ep20 -B /Users/isawessels/CLionProjects/project_Ep20/cmake-build-debug
--- Configuring done (0.1s)
+-- Configuring done (0.2s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/isawessels/CLionProjects/Project_Ep20/cmake-build-debug
