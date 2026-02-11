@@ -45,6 +45,37 @@ Feedback / Sensor Loop
 </p>
 </pre>
 </div>
+<h2 align="center">💻 Build & Run the Project</h2>
+<div style="text-align:left; width:100%;">
+
+  <div style="display:flex; align-items:center; background-color:#f4f4f4; padding:4px 8px; border-radius:6px; margin:4px 0; width:100%;">
+    <pre style="margin:0;"><code>mkdir -p cmake-build-debug</code></pre>
+    <button style="margin-left:auto;" onclick="navigator.clipboard.writeText('mkdir -p cmake-build-debug')"></button>
+  </div>
+
+  <div style="display:flex; align-items:center; background-color:#f4f4f4; padding:4px 8px; border-radius:6px; margin:4px 0; width:100%;">
+    <pre style="margin:0;"><code>cd cmake-build-debug</code></pre>
+    <button style="margin-left:auto;" onclick="navigator.clipboard.writeText('cd cmake-build-debug')"></button>
+  </div>
+
+  <div style="display:flex; align-items:center; background-color:#f4f4f4; padding:4px 8px; border-radius:6px; margin:4px 0; width:100%;">
+    <pre style="margin:0;"><code>cmake ..</code></pre>
+    <button style="margin-left:auto;" onclick="navigator.clipboard.writeText('cmake ..')"></button>
+  </div>
+
+  <div style="display:flex; align-items:center; background-color:#f4f4f4; padding:4px 8px; border-radius:6px; margin:4px 0; width:100%;">
+    <pre style="margin:0;"><code>cmake --build . -j6</code></pre>
+    <button style="margin-left:auto;" onclick="navigator.clipboard.writeText('cmake --build . -j6')"></button>
+  </div>
+
+  <div style="display:flex; align-items:center; background-color:#f4f4f4; padding:4px 8px; border-radius:6px; margin:4px 0; width:100%;">
+    <pre style="margin:0;"><code>./Project_Ep20</code></pre>
+    <button style="margin-left:auto;" onclick="navigator.clipboard.writeText('./Project_Ep20')"></button>
+  </div>
+
+</div>
+
+
 <!-- Git & GitHub Documentation -->
 <h2 align="center">🗂 Git & GitHub Documentation (SSH Workflow)</h2>
 <div style="display:inline-block; text-align:left; background-color:#f4f4f4; padding:10px; border-radius:6px; margin:5px 0; width:100%;">
