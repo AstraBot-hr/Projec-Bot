@@ -1,11 +1,3 @@
-<!-- Full-Width Top Navigation -->
-<div style="display:inline-block; text-align:left; background-color:#f4f4f4; padding:10px; border-radius:6px; margin:5px 0; width:100%;">
-<pre>
-  <span style="color:#1f2937; font-size:24px; font-weight:bold; margin:0 20px;">Hogeschool Rotterdam</span>
-  <span style="color:#1f2937; font-size:24px; font-weight:bold; margin:0 20px;">Project E20</span>
-  <span style="color:#1f2937; font-size:24px; font-weight:bold; margin:0 20px;">Author: Nathanial</span>
-</pre>
-</div>
 
 <!-- Project Title -->
 <h1 align="center"> ASTRA Bot</h1>
