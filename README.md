@@ -128,16 +128,6 @@ cd REPO</code></pre>
 <button onclick="navigator.clipboard.writeText('git clone git@github.com:USERNAME/REPO.git\\ncd REPO')"></button>
 </div>
 
-<h3>Initialize a NEW local project</h3>
-<div style="display:inline-block; text-align:left; background-color:#f4f4f4; padding:10px; border-radius:6px; margin:5px 0; width:100%;">
-<pre><code>git init
-git branch -M main
-git remote add origin git@github.com:USERNAME/REPO.git
-git add .
-git commit -m "Initial commit"
-git push -u origin main</code></pre>
-<button onclick="navigator.clipboard.writeText('git init\\ngit branch -M main\\ngit remote add origin git@github.com:USERNAME/REPO.git\\ngit add .\\ngit commit -m \"Initial commit\"\\ngit push -u origin main')"></button>
-</div>
 
 <h3>Daily workflow (commit & push)</h3>
 <div style="display:inline-block; text-align:left; background-color:#f4f4f4; padding:10px; border-radius:6px; margin:5px 0; width:100%;">
